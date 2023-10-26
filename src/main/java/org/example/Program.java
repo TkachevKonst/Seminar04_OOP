@@ -55,7 +55,7 @@ public class Program {
         System.out.println(orangeBox);
         System.out.println("****");
         appleBox.compare(orangeBox);
-
+        System.out.println("****");
         Box<Fruit>fruitBox = new Box<>();
         fruitBox.add(orange);
         System.out.println(fruitBox);
