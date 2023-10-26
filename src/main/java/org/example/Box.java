@@ -32,6 +32,7 @@ public class Box <T extends Fruit> {
     /**
      * Перенос фруктов определенное количество.
      * При переносе с Apple в Orange программа вылетает из-зи не соответствия типов (нужно исключение)
+     *
      * @param fruits2
      * @param count
      * @return

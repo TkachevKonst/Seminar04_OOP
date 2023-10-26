@@ -58,6 +58,7 @@ public class Program {
         System.out.println("****");
         Box<Fruit>fruitBox = new Box<>();
         fruitBox.add(orange);
+        fruitBox.add(orange);
         System.out.println(fruitBox);
         System.out.println("****");
         appleBox.transferFruits(fruitBox, 9);
