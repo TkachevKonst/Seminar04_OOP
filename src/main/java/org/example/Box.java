@@ -66,15 +66,15 @@ public class Box <T extends Fruit> {
      * @param fruit
      * @return
      */
-    public boolean add(Fruit fruit){
+    public boolean add(T fruit){
         if (this.size() == 0){
             lastIndex++;
-            fruits.add((T) fruit);
+            fruits.add(fruit);
             return true;
         } else if (this.size() > 0) {
             if (fruit.getClass().equals(this.getFruit(lastIndex).getClass())){
                 lastIndex++;
-                fruits.add((T) fruit);
+                fruits.add(fruit);
                 return true;
             }
         }

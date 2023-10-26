@@ -38,7 +38,7 @@ public class Program {
         appleBox.add(apple);
         appleBox.add(apple);
         appleBox.add(apple);
-        appleBox.add(apple);
+
 
 
 
@@ -57,8 +57,8 @@ public class Program {
         appleBox.compare(orangeBox);
         System.out.println("****");
         Box<Fruit>fruitBox = new Box<>();
-        fruitBox.add(orange);
-        fruitBox.add(orange);
+        fruitBox.add(apple);
+
         System.out.println(fruitBox);
         System.out.println("****");
         appleBox.transferFruits(fruitBox, 9);
